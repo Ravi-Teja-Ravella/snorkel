@@ -66,3 +66,5 @@ pip install -r requirements.txt
 #run the python file
 python main.py
 ```
+
+You will find the visualizations and the CSV file once you run the code.
