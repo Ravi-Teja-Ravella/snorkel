@@ -11,7 +11,7 @@ from datasets import load_dataset
 from labeling import lfs, ABSTAIN
 from utils import load_and_sample_imdb
 
-df = load_and_sample_imdb(n=5000)
+df = load_and_sample_imdb(n=25000)
 applier = PandasLFApplier(lfs=lfs)
 L_train = applier.apply(df)
 
@@ -42,7 +42,7 @@ rf_clf = RandomForestClassifier(n_estimators=100, random_state=42)
 logistic_clf.fit(X, y)
 rf_clf.fit(X, y)
 
-test_df = load_dataset("imdb")["test"].shuffle(seed=42).select(range(2000)).to_pandas()
+test_df = load_dataset("imdb")["test"].shuffle(seed=42).select(range(12000)).to_pandas()
 X_test = vectorizer.transform(test_df["text"])
 y_test = test_df["label"]
 
