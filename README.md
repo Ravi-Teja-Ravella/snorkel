@@ -39,11 +39,11 @@ We use Snorkel's `PandasLFApplier` and majority voting to generate labels and ev
 ---
 
 ## Example Output
+              precision  recall       F1-score    support
+       0       0.90      0.62            0.73      6017
+       1       0.71      0.93            0.80      5983
 
-       0       0.83      0.70            0.76      1000
-       1       0.74      0.85            0.79      1000
-
-      accuracy                           0.78      2000
+      accuracy                           0.77      12000
 
 
 
