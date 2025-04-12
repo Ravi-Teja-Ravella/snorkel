@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+
 from snorkel.labeling import PandasLFApplier, LFAnalysis
 from snorkel.labeling.model.baselines import MajorityLabelVoter
 
@@ -10,11 +11,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import SVC
-from sklearn.metrics import (
-    classification_report,
-    confusion_matrix,
-    precision_recall_fscore_support,
-)
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import precision_recall_fscore_support
 
 from datasets import load_dataset
 from labeling import lfs, ABSTAIN
