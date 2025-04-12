@@ -57,8 +57,8 @@ We use Snorkel's `PandasLFApplier` and majority voting to generate labels and ev
 
 ```bash
 # Create and activate environment
-conda create -n snorkel-env python=3.10 -y
-conda activate snorkel-env
+conda create -n env python=3.10
+conda activate env
 
 # Install dependencies
 pip install -r requirements.txt
