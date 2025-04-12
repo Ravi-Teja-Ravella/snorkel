@@ -69,3 +69,5 @@ python main.py
 
 You will find the visualizations and the CSV file once you run the code. The visualizations look something like this.
 
+![image] [metrics_comparison]
+
