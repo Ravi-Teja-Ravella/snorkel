@@ -74,4 +74,4 @@ You will find the visualizations and the CSV file once you run the code. The vis
 
 You'll also find some confusion-matrices as well.
 
-Check out the [project blog post on Medium]([https://medium.com/your-post-link](https://medium.com/@ravitejaravella8504/enhancing-movie-review-classification-with-snorkel-a-weak-supervision-approach-1e43846525fa)).
+[project blog post on Medium](https://medium.com/@ravitejaravella8504/enhancing-movie-review-classification-with-snorkel-a-weak-supervision-approach-1e43846525fa).
